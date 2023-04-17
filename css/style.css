@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=DM+Sans&family=Iceberg&family=Libre+Barcode+39+Extended+Text&family=Montserrat+Subrayada:wght@700&family=Oxanium:wght@300&display=swap');
 
 header{
-    background:rgba(0, 0, 0, 0.018);
+    background:rgba(0, 0, 0, 0.349);
+    margin-bottom: 2em;
     
 }
 
 header a{
     text-decoration: none;
-      color: cadetblue;
+      color: rgb(255, 255, 255);
       display: inline;
       float: right;
       margin-left: 2em;
@@ -26,30 +27,29 @@ header a{
 
 h1{
     font-family: 'Montserrat Subrayada', sans-serif;
-    color: #05212e;
+    color: cadetblue;
     margin-top: 2em;
     margin-bottom: 1em;
 }
 
 h3{
-    color: #05212e;
+    color: cadetblue;
     margin-bottom: 1em;
 }
 
      
 .artigo{
-    background:rgba(246, 246, 246, 0.519);
-    border-radius: 10%;
+   
+    height: 20em;
     border-radius: 10%;
     margin-top: 15em;
+    margin-bottom: 2em;
     
   
 }
 .img{
     filter: drop-shadow(8px 6px 4px #1d0d0292);
-    background:rgba(0, 0, 0, 0.018);
-    border-radius: 10%;
-
+    margin-top: 13em;
   
     
 }
@@ -89,8 +89,8 @@ h3{
     perspective: 230px;
   }
   .btn-12 span {
-    background: #05212e;
-  background: linear-gradient(0deg, hsl(198, 78%, 12%) 0%, rgb(0, 0, 0) 100%);
+    background: #06415d;
+  background: linear-gradient(0deg, hsl(258, 94%, 27%)  0%, rgb(209, 230, 231) 100%);
     display: block;
     position: absolute;
     width: 130px;
@@ -154,6 +154,42 @@ h3{
    color: rgb(145, 139, 131);
    background:rgba(0, 0, 0, 0.247);
 }
+@media only screen and (min-width: 576px) and (max-width:576px) {
+  
+.body{
+  background: url(../img/nobg.png) no-repeat;
+  background-size: cover;
+}
+  
+}
 
+/*@media only screen and (min-width: 800px) and (max-width:1800px) {
 
+  .img1 {
+  
+  background-image: url(./img/esse2);
+  
+  height: 517px;
+  
+  }
+  
+  .img2 {
+  
+  background-image: url(./img/esse2);
+  
+  height: 260px;
+  
+  }
+  
+  .img3 {
+  
+  background-image: url(./img/esse2);
+  
+  height: 260px;
+  
+   
+  
+  }
+  
+  }*/
 
